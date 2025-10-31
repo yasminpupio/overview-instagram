@@ -45,5 +45,47 @@ body {
 }
 
 .right {
-    
+    padding-left: 20px;
+}
+
+.login-panel {
+    background-color: #FFF;
+    border: 1px solid #E6E6E6;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo-img {
+    width: 175px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="text"],
+input[type="password"] {
+    background-color: #FFFFFF;
+    border: 1px solid rgb(236, 234, 234);
+    height: 40px;
+    border-radius: 4px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 13px;
+    width: 220px;
+    color: #000000;
+}
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+    color: rgb(165, 164, 164);
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    outline: 0;
+    border: 1px solid #A1A1A1;
 }
