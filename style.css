@@ -160,3 +160,37 @@ footer a {
     padding-left: 20px;
     display: inline-block;
 }
+
+/* PAGINA SINGUP */
+#container-singup {
+    margin: 0 auto;
+    min-height: 100%;
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.message {
+    margin: 10px 70px;
+}
+
+.message span {
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #8E8E8E;
+}
+
+.cta-button {
+    width: 320px;
+    margin: 10px 0;
+    height: 35px;
+    background-color: #0095F6;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
