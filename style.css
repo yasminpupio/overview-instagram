@@ -194,3 +194,23 @@ footer a {
     cursor: pointer;
     font-weight: bold;
 }
+
+.divisor-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.line {
+    height: 1px;
+    background-color: #E6E6E6;
+    width: 35%;
+}
+
+.divisor-tag {
+   font-weight: bold;
+   margin: 0 2.5%; 
+   color: #8E8E8E;
+   user-select: none;
+}
