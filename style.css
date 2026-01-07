@@ -5,12 +5,18 @@
 }
 
 a {
-    color: #3C96ED;
+    color: var(--button-primary);
     text-decoration: none;
 }
 
 body {
-    background: #FAFAFA;
+    --background: #FAFAFA;
+    --white: #FFFFFF;
+    --black: #000000;
+    --button-primary: #0095F6;
+    --border-primary: #E6E6E6;
+
+    background: var(--background);
     height: 100%;
     width: 100%;
     margin: 0;
@@ -51,8 +57,8 @@ body {
 }
 
 .login-panel {
-    background-color: #FFF;
-    border: 1px solid #E6E6E6;
+    background-color: var(--white);
+    border: 1px solid var(--border-primary);
     text-align: center;
     padding: 20px 0;
 }
@@ -70,15 +76,15 @@ form {
 
 input[type=password],
 input[type=text] {
-    background-color: #FFFFFF;
-    border: 1px solid rgb(236, 234, 234);
+    background-color: var(--white);
+    border: 1px solid var(--border-primary);
     height: 40px;
     border-radius: 4px;
     margin-top: 10px;
     padding: 10px;
     font-size: 13px;
     width: 320px;
-    color: #000000;
+    color: var(--black);
 }
 
 input[type="password"]::placeholder,
@@ -109,7 +115,7 @@ input[type="submit"] {
 .infobox {
     background-color: #FFF;
     height: 60px;
-    border: 1px solid rgb(236, 234, 234);
+    border: 1px solid var(--border-primary);
     margin: 10px auto 0;
     display: flex;
     align-items: center;
@@ -146,7 +152,7 @@ footer {
 }
 
 footer a {
-    color: #000000;
+    color: var(--black);
     text-transform: uppercase;
     font-weight: bold;
     margin-right: 8px;
@@ -186,8 +192,8 @@ footer a {
     width: 320px;
     margin: 10px 0;
     height: 35px;
-    background-color: #0095F6;
-    color: #FFFFFF;
+    background-color: var(--button-primary);
+    color: var(--white);
     border: 0;
     border-radius: 4px;
     font-size: 15px;
@@ -204,7 +210,7 @@ footer a {
 
 .line {
     height: 1px;
-    background-color: #E6E6E6;
+    background-color: var(--border-primary);
     width: 35%;
 }
 
@@ -245,7 +251,7 @@ footer a {
         width: 85%;
     }
 
-    .cta-button { 
+    .cta-button {
         width: 85%;
     }
 
